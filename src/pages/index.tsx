@@ -1,7 +1,13 @@
-import styles from '../../styles/Home.module.scss'
+// Head é um componente que quando usado em qlq página será anexado ao Head de _document.tsx
+import Head from 'next/head'
 
 export default function Home() {
   return (
-    <h1 className={styles.title}>Hello World</h1>
+  	<>
+  		<Head>
+  			<title>Início | Ig news</title>
+  		</Head>
+    	<h1>Hello World</h1>
+    </>
   )
 }
