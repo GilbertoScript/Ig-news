@@ -1,5 +1,6 @@
 // Importações
 import styles from './styles.module.scss'
+import { SignInButton } from '../SignInButton'
 
 // Como o header irá ficar em todas as páginas, colocamos ele no _app.tsx
 export function Header() {
@@ -12,6 +13,8 @@ export function Header() {
 					<a className={styles.active} href="#">Home</a>
 					<a href="#">Post</a>
 				</nav>
+
+				<SignInButton />
 			</div>
 		</header>
 	)
