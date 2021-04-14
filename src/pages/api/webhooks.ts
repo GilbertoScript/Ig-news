@@ -1,6 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next/'
 import { Readable } from 'stream'
 
+import { saveSubscription } from './_lib/manageSubscription'
 import { stripe } from '../../services/stripe'
 import Stripe from 'stripe'
 
@@ -47,6 +48,13 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 			try {
 				switch(type) {
 					case 'checkout.session.completed':
+
+					const checkoutSession = event.data.object as Stripe.Checkout.Session
+
+						await saveSubscription(
+							checkoutSession.subscription.toString(),
+							checkoutSession.customer.toString()
+						)
 
 					break
 
