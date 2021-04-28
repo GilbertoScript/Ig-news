@@ -1,4 +1,6 @@
-# **Ignews Notícias sobre o mundo React.**
+🚧🏗👷‍♂️ Em construção 👷‍♂️🏗🚧
+
+<!-- # **Ignews Notícias sobre o mundo React.**
 
 <img src="https://github.com/Jordaobm/ignews/blob/main/docs/assets/1.PNG"/>
 
@@ -36,3 +38,4 @@ No ignews temos as funcionalidades de login, autenticação, assinatura�
 
 <img src="https://github.com/Jordaobm/ignews/blob/main/docs/assets/3.PNG"/>
 <img src="https://github.com/Jordaobm/ignews/blob/main/docs/assets/5.PNG"/>
+ -->
