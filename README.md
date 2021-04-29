@@ -1,10 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/GilbertoASJ/Ig-news">
-    Ig News
-  </a>
-
+	
   <h3 align="center">Ig News</h3>
 
   <p align="center">
@@ -54,7 +51,7 @@
 <img src="docs/assets/1.PNG" alt="Home Podcastr">
 <hr>
 
-O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação em ReactJS com NextJS para listagem de posts e sistema de inscrição(subscription).
+Ig News é uma aplicação web que tem como objetivo o estudo e desenvolvimento de uma aplicação em ReactJS com NextJS para listagem de posts e sistema de inscrição.
 
 A aplicação foi desenvolvida utilizando o framework NextJS aplicando conceitos como consumo de API externas, API Root, Server Side Rendering (SSR), Static Site Generation (SSG), STRIPE para pagamentos das subscriptions, NextAuth para autenticação com Github, FaunaDB para armazenar as informações do usuário em um banco de dados e Prismic CMS para adição e gerenciamento do conteúdo dos posts.
 
