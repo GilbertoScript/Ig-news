@@ -2,7 +2,7 @@
 <br />
 <p align="center">
 	
-  <h3 align="center">Ig News</h3>
+  <h1 align="center">Ig News</h1>
 
   <p align="center">
     Ig News é uma aplicação web, especificamente um blog, com assinatura de produto e visualização de posts
